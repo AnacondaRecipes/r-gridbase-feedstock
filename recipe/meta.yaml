@@ -10,8 +10,8 @@ package:
 source:
   fn: gridBase_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/gridBase_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/gridBase/gridBase_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/gridBase_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/gridBase/gridBase_{{ version }}.tar.gz
   sha256: be8718d24cd10f6e323dce91b15fc40ed88bccaa26acf3192d5e38fe33e15f26
 
 
